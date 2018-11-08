@@ -1,5 +1,7 @@
 import React  from 'react';
-import PropTypes from 'prop-types'; // ES6
+var _propTypes = require('prop-types');
+
+
 
 // Done in SVG so we can avoid importing any CSS
 const RECT_WIDTH = 1.5;
@@ -34,7 +36,7 @@ const CloseCircle = (props) => {
 };
 
 CloseCircle.propTypes = {
-  diameter: PropTypes.number.isRequired,
+  diameter: _propTypes.number.isRequired,
 };
 
 export default CloseCircle;
