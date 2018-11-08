@@ -1,5 +1,7 @@
 // RootPage
 import React  from 'react';
+import PropTypes from 'prop-types'; // ES6
+
 import {RouteHandler} from 'react-router';
 
 require('../../css/RootPage.scss');
