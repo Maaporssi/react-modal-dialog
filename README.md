@@ -43,7 +43,7 @@ class Button extends React.Component {
 This is how react-modal-dialog works. You can create a component that wraps ModalContainer and ModalDialog into one CustomDialog, but the reason I have separated is so that I can add a loading spinner above the background but below the dialog.
 
 ```javascript
-import React, {PropTypes} from 'react';
+import React  from 'react';
 import {ModalContainer, ModalDialog} from 'react-modal-dialog';
 
 class View extends React.Component {
@@ -71,7 +71,7 @@ class View extends React.Component {
 ## Loading Spinners
 
 ```javascript
-import React, {PropTypes} from 'react';
+import React  from 'react';
 import {ModalContainer, ModalDialog} from 'react-modal-dialog';
 import ReactSpinner from 'react-spinjs';
 
